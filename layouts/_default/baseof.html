@@ -10,6 +10,11 @@
 <body>
     <main>
         <h1>{{ .Page.Title }}</h1>
+        {{ if .Page.Params.Image }}
+        {{ $img := resources.Get (printf "img/%s" .Page.Params.Image) }}
+        {{ $img := $img.Fit "600x400" }}
+        <img src="{{ $img.Permalink }}">
+        {{ end }}
         {{ block "body" . }}{{end}}
     </main>
 </body>
