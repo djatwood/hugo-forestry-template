@@ -5,3 +5,6 @@ image: tree.jpg
 
 ---
 Hello, World!
+
+* This is a list
+* Second Item
