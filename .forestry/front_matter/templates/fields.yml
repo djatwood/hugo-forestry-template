@@ -1,10 +1,11 @@
 ---
-label: Fields
+label: Blocks
 hide_body: true
 fields:
 - name: blocks
   type: blocks
-  template_types: []
+  template_types:
+  - image
   config:
     min: 
     max: 
