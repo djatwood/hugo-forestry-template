@@ -9,6 +9,13 @@
 
 <body>
     <main>
+        <nav class="sidebar-nav">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+        
         <h1>{{ .Page.Title }}</h1>
         {{ if .Page.Params.Image }}
         {{ $img := resources.Get .Page.Params.Image }}
