@@ -7,8 +7,6 @@ images:
 - img/tree.jpg
 tags: []
 sections:
-- image: img/christian-lue-wqc6p7id5dq-unsplash.jpg
-  template: image
 menu:
   main:
     name: Home
@@ -16,7 +14,3 @@ menu:
     weight: 1
 
 ---
-Hello, World!
-
-* This is a list
-* Second Item

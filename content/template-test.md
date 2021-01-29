@@ -11,9 +11,7 @@ menu:
   main:
     name: "Single"
     weight: 2
-blocks:
-- image: "img/tree.jpg"
-  template: "image"
 
 ---
+
 This is it's content
