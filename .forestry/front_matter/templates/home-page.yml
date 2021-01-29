@@ -19,3 +19,5 @@ fields:
     min: 
     max: 
   label: Sections
+pages:
+- content/_index.md
