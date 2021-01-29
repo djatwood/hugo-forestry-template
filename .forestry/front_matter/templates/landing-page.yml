@@ -4,29 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Publish Date
 - type: text
   name: lastmod
-  label: lastmod
+  label: Updated Date
 - type: text
   name: description
-  label: description
+  label: Description
 - type: image_gallery
   name: images
-  label: images
-- type: text
-  name: tags
-  label: tags
-- type: field_group_list
-  name: sections
-  label: sections
-  fields:
-  - type: file
-    name: image
-    label: image
-  - type: text
-    name: template
-    label: template
+  label: Featured Images
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tags
+- name: sections
+  type: blocks
+  label: Sections
+  template_types: []
+  config:
+    min: 
+    max: 
