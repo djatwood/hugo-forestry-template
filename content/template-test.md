@@ -1,7 +1,6 @@
 +++
-draft = true
 [[blocks]]
-image = ""
+image = "/assets/tree.jpg"
 template = "image"
 
 +++
