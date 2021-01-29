@@ -1,0 +1,5 @@
+baseURL: "https://hugo-forestry-template.vercel.app/"
+languageCode: "en-us"
+title: "Hugo Forestry Demo"
+
+metaDataFormat: "yaml"
