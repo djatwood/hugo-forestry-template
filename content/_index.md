@@ -1,7 +1,12 @@
 ---
-date: 2021-01-28T01:31:04Z
-image: "img/tree.jpg"
+draft: false
 title: "Home page"
+date: 2021-01-28T01:31:04Z
+lastmod: 
+description: 
+images:
+- "img/tree.jpg"
+tags: 
 menu:
   main:
     identifier: "home"
