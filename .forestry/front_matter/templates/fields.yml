@@ -11,3 +11,5 @@ fields:
     max: 
   label: Blocks
   description: This is the description
+pages:
+- content/template-test.md
