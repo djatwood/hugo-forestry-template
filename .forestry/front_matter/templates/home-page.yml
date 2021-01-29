@@ -4,10 +4,18 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Page Title
 - type: datetime
   name: date
-  label: date
+  label: Published Date
 - type: file
   name: image
-  label: image
+  label: Featured Image
+- name: sections
+  type: blocks
+  template_types:
+  - image
+  config:
+    min: 
+    max: 
+  label: Sections
