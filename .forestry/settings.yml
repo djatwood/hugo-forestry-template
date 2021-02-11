@@ -22,6 +22,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yaml
+  templates:
+  - coupon
 upload_dir: assets/img
 public_path: img
 front_matter_path: ''
