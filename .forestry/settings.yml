@@ -12,10 +12,11 @@ sections:
 - type: heading
   label: Store
 - type: directory
-  path: data
+  path: data/coupons
   label: Coupons
   create: documents
   match: "**/*"
+  new_doc_ext: ".yaml"
 upload_dir: assets/img
 public_path: img
 front_matter_path: ''
