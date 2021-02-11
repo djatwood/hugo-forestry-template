@@ -21,3 +21,5 @@ fields:
     max: 
     step: 
     required: true
+pages:
+- data/coupons/summer-2021.yaml
