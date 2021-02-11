@@ -12,6 +12,11 @@ sections:
 - type: heading
   label: Store
 - type: directory
+  path: content/store
+  label: Products
+  create: all
+  match: "**/*"
+- type: directory
   path: data/coupons
   label: Coupons
   create: documents
