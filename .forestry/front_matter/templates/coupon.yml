@@ -1,4 +1,23 @@
 ---
 label: Coupon
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: percentage
+  type: boolean
+  label: Percentage
+- name: value
+  type: number
+  label: Value
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 
+    required: true
