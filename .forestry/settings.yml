@@ -21,7 +21,7 @@ sections:
   label: Coupons
   create: documents
   match: "**/*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 upload_dir: assets/img
 public_path: img
 front_matter_path: ''
